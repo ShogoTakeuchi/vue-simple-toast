@@ -12,8 +12,11 @@
 2. Add the following code to your Vue.js methods.
 ```
 methods: {
-    showToast: function (e) {
-        this.$refs.toast.showSuccess('変更内容を保存しました')
+    showSuccess: function (e) {
+        this.$refs.toast.showSuccess('Success!!')
+    }
+    showError: function (e) {
+        this.$refs.toast.showError('Error!!')
     }
 }
 ```
