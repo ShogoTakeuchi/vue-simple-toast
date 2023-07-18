@@ -16,10 +16,10 @@
 2. Add the following code to your Vue component methods.
 ```
 methods: {
-    showSuccess: function (e) {
+    showSuccess: function () {
         this.$refs.toast.showSuccess('Success!!')
     }
-    showError: function (e) {
+    showError: function () {
         this.$refs.toast.showError('Error!!')
     }
 }
