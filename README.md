@@ -13,7 +13,7 @@
 </div>
 ```
 
-2. Add the following code to your Vue.js methods.
+2. Add the following code to your Vue component methods.
 ```
 methods: {
     showSuccess: function (e) {
