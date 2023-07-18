@@ -1,4 +1,4 @@
-# Vue Simple Toast Component
+# Vue.js Simple Toast Component
 
 ## Usage
 
@@ -9,7 +9,7 @@
 </div>
 ```
 
-2. Please add the following code to your Vue.js method,
+2. Add the following code to your Vue.js methods.
 ```
 methods: {
     showToast: function (e) {
